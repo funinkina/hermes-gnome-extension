@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.hermes" path="/org/gnome/shell/extensions/hermes/">
+    <key name="server-url" type="s">
+      <default>'http://127.0.0.1:8642'</default>
+      <summary>Hermes API server base URL</summary>
+    </key>
+    <key name="api-key" type="s">
+      <default>''</default>
+      <summary>API_SERVER_KEY of the Hermes gateway</summary>
+    </key>
+    <key name="session-id" type="s">
+      <default>''</default>
+      <summary>Current conversation (empty = start a new one on next message)</summary>
+    </key>
+  </schema>
+</schemalist>
