@@ -27,7 +27,7 @@ export default class {
     enable() {
         (async () => {
             await sleep(2500);
-            const ind = Main.panel.statusArea['hermes@funinkina'];
+            const ind = Main.panel.statusArea['hermes@funinkina.com'];
             ind._newChat();
             if (GLib.getenv('HERMES_FIXTURE') === 'readme') {
                 ind._userBubble('what\'s on my calendar today?');

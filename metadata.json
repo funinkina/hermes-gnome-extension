@@ -1,8 +1,15 @@
 {
-  "uuid": "hermes@funinkina",
+  "uuid": "hermes@funinkina.com",
   "name": "Hermes",
   "description": "Chat with your Hermes Agent from the top bar. Connects to the Hermes API server locally or over your tailnet.",
-  "shell-version": ["48", "49", "50", "51"],
+  "shell-version": [
+    "48",
+    "49",
+    "50",
+    "51"
+  ],
   "settings-schema": "org.gnome.shell.extensions.hermes",
-  "url": "https://github.com/funinkina/hermes-gnome-extension"
+  "url": "https://github.com/funinkina/hermes-gnome-extension",
+  "version": 1,
+  "version-name": "1.0.0"
 }

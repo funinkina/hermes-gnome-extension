@@ -49,18 +49,18 @@ The first time, Tailscale prints a link to enable Serve for your tailnet.
 git clone https://github.com/funinkina/hermes-gnome-extension.git
 cd hermes-gnome-extension
 glib-compile-schemas schemas
-ln -s "$PWD" ~/.local/share/gnome-shell/extensions/hermes@funinkina
+ln -s "$PWD" ~/.local/share/gnome-shell/extensions/hermes@funinkina.com
 ```
 
 Log out and back in (Wayland can't load new extensions live), then:
 
 ```sh
-gnome-extensions enable hermes@funinkina
+gnome-extensions enable hermes@funinkina.com
 ```
 
 ### 4. Configure
 
-Open the settings with the ⚙ button in the popup or `gnome-extensions prefs hermes@funinkina`:
+Open the settings with the ⚙ button in the popup or `gnome-extensions prefs hermes@funinkina.com`:
 
 | Setting | Hermes on this machine | Hermes on another machine |
 |---|---|---|
